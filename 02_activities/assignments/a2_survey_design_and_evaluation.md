@@ -40,30 +40,29 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to determine the major factors that Canadian voters care about leading up to the election (1 month away) and current perception of my political party. The results will then be used to reinforce major findings within campaign messaging leading up to the election in order to maintain our lead.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: Eligible Canadian voters (18+) across all federal ridings
+Sampling frame: List of registered voters from federal database
+Sampling units: Individual adult voter, one per stratified household
+Observational units: Stratified random sampling. Household will be stratified based on geographic regions and demographics (age, gender); One individual per household.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How likely are you to vote in the upcoming election? (Definitely will vote, probably will vote, uncertain, probably will not vote, definitely will not vote)
+2. Which party are you planning to vote for? (Our party, opposition, other, uncertain, prefer not to say)
+3. Which of the following best describes where you live? (Large city centre, suburban (Midsized) city, small town, rural)
+4. How satisfied with your current political party leader are you? (Very satisfied, somewhat satisfied, neutral, unsatified, very unsatisfied)
+5. Please rank the following issues from most (1) to least important (5) to you when deciding your vote? (Cost of living, healthcare, housing, climate, public safety)
+6. On a scale from 1-5 (least to most), please rank how much each of the following has influenced your voting decision? (Party platform & policies, party leadership, family/friends, news/media coverage)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +70,32 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Two-stage random stratified sampling model. First, the stratification is done at the province/census metropolitan area (CMA) level to identify househoulds of interest. Next, a random individual (over 15) is selected from each household to complete the survey.
+
+2. Sample size: ~50,000 were contacted about the survey (40,000 invitations to the electronic survey)
+
+3. Target population: All non-institutionalized persons 15 years of age or older, living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame: Based on information from government data, combining landlines and cell numbers from Census/Statistics Canada to create list of eligible individuals.
+
+5. Survey mode(s): Interviewed by telephone or self-completed an electronic questionnaire
+
+6. Timeline: Data is collected every 5 years from 2018-09-04 to 2018-12-28.
+
+7. Response rate: 41.9%
+
+8. Weights: Estimation weighting was done at the person level. Bootstrap weights were also created for the purpose of design-based variance estimation.
+
+9. Data processing: Processing used SSPE procesing and utilities. Error detection was done through edits programmed into the CATI system.
+
+10. Cleaning, imputation, etc: All imputations were made using donor records selected through a score function (except in a few cases). This helped to fill incomplete responses with the experience of other respondents with similar or identical characteristics. There are quality assurance checks in statistical process and validation, and responses are subjected to scrutiny by statisticians. 
+
+11. Sources of error: Non-sampling error (imperfect coverage and non-response), coverage error (households without telephones), response error (mistakes made while filling out the survey).
+
+12. Limitations, known biases, etc: The survey excludes individuals living in any Canadian territories or those living at an institution. There may be limitations with the way the survey is conducted as well, such as the collection of online responses (non-response bias).
+
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
@@ -93,9 +117,9 @@ write your answer here
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-2`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
