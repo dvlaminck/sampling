@@ -52,7 +52,7 @@ Describe your target population, sampling frame, sampling units, and observation
 Target population: Eligible Canadian voters (18+) across all federal ridings
 Sampling frame: List of registered voters from federal database
 Sampling units: Individual adult voter, one per stratified household
-Observational units: Stratified random sampling. Household will be stratified based on geographic regions and demographics (age, gender); One individual per household.
+Observational units: Stratified random sampling. Household will be stratified based on geographic regions and demographics (age, gender); Observational units should be individual voters whose survey responses are recorded.
 ```
 
 Your 5-10 question survey:
@@ -72,7 +72,7 @@ Identify and describe survey features:
 ```
 1. Sample type: Two-stage random stratified sampling model. First, the stratification is done at the province/census metropolitan area (CMA) level to identify househoulds of interest. Next, a random individual (over 15) is selected from each household to complete the survey.
 
-2. Sample size: ~50,000 were contacted about the survey (40,000 invitations to the electronic survey)
+2. Sample size: Approximately 50,000 units. Expected Completed Questionnaires: 24,000
 
 3. Target population: All non-institutionalized persons 15 years of age or older, living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
 
@@ -84,13 +84,19 @@ Identify and describe survey features:
 
 7. Response rate: 41.9%
 
-8. Weights: Estimation weighting was done at the person level. Bootstrap weights were also created for the purpose of design-based variance estimation.
+8. Weights: 
+
+WGHT_PER: Basic weighting factor for analysis at the person level.
+Adjusted Weight (rejective sampling)
+Adjusted Weight (income distribution adjustment
+Bootstrap Weights
+Non-response Adjusted Weight
 
 9. Data processing: Processing used SSPE procesing and utilities. Error detection was done through edits programmed into the CATI system.
 
 10. Cleaning, imputation, etc: All imputations were made using donor records selected through a score function (except in a few cases). This helped to fill incomplete responses with the experience of other respondents with similar or identical characteristics. There are quality assurance checks in statistical process and validation, and responses are subjected to scrutiny by statisticians. 
 
-11. Sources of error: Non-sampling error (imperfect coverage and non-response), coverage error (households without telephones), response error (mistakes made while filling out the survey).
+11. Sources of error: Sampling error, Non-sampling error (imperfect coverage and non-response), coverage error (households without telephones), response error (mistakes made while filling out the survey).
 
 12. Limitations, known biases, etc: The survey excludes individuals living in any Canadian territories or those living at an institution. There may be limitations with the way the survey is conducted as well, such as the collection of online responses (non-response bias).
 
